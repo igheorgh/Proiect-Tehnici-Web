@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Site-ul meu </title>
+        <link rel   ="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Acasa</a></li>
+                <li><a href="noutati.html">Comentarii</a></li>
+                <li><a onclick="
+                    window.scrollTo(0,document.body.scrollHeight)" href="#Contacte">Contacte</a></li>
+
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                
+            </ul>
+        </nav>
+
+            
+<div class="Brand">
+        <div id="titlu">  
+                <h2>Brandurile Noastre</h2>
+        </div>  
+<div class="flex-container">
+     <img src="1.jpg" class="flex-item" alt="Nike"> 
+     <img src="2.jpg" class="flex-item" alt="Puma"> 
+     <img src="3.jpg" class="flex-item" alt="Adidas"> 
+     <img src="4.jpg" class="flex-item" alt="Jordan">
+     <img src="5.jpg" class="flex-item" alt="Timberland">
+     <img src="6.jpg" class="flex-item" alt="Vans">  
+    
+</div>
+</div>
+
+
+  <div class="slideshow-container">
+        <div id="Titlu">  
+                <h2>Cele mai vandute produse</h2>
+        </div>  
+        <div class="mySlides fade">
+          <img src="adidas.jpg" style="width:100%" alt="Adidas">
+          <div class="text">Adidas Originals</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="puma.jpg" style="width:100%" alt="Puma">
+          <div class="text">Puma Thunder Spectra</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="jord.jpg" style="width:100%" alt="Jordan">
+          <div class="text">Jordan Spizike</div>
+        </div>
+
+        <div class="mySlides fade">
+                <img src="nke.jpg" style="width:100%" alt="Nike">
+                <div class="text">Nike Air Max 97 Premium</div>
+              </div>
+        <div class="mySlides fade">
+                    <img src="timb.jpg" style="width:100%" alt="Timberland">
+                    <div class="text">Timberland 6 Inch Premium</div>
+                </div>
+                <div class="mySlides fade">
+                        <img src="vans.jpg" style="width:100%" alt="Vans">
+                        <div class="text">Vans Old School</div>
+                    </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+
+    <div class="flex-cont">
+        <footer id="footer">
+                <img src="tel.png" class="flex-footer" alt="telefon"> <span>0244486</span>
+                <img src="email.png" class="flex-footer" alt="mail"> <span>sneaker@gmail.com</span>
+                <img src="facebook.png" class="flex-footer" alt="facebook"> <span>Sneakers-Hop</span>
+        </footer>
+    </div>
+    </body>
+    <script src="java.js"></script> 
+</html>

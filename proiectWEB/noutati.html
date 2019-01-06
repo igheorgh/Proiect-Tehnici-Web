@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Site-ul meu </title>
+        <link rel   ="stylesheet" href="style1.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Acasa</a></li>
+                <li><a href="noutati.html">Comentarii</a></li>
+                <li><a  onclick="cont()"href="#Contacte">Contacte</a></li>
+                <li class="dropdown-icon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+                
+            </ul>
+        </nav>
+
+
+        <div id="form">
+        <button id="but" onclick="Formular()">Comentariu</button>
+        <button id="but"onclick="x1()">Incarcare</button>
+        <button id="but" onclick="update()">Update</button>
+        <button id="but" onclick="up()">Incarca Update</button>
+        <button id="but" onclick="x2('http://localhost:3000/Comentarii')">Stergere dupa id:</button>
+        <form action="/action_page.php">
+            <label id="ster" for="text">Id de sters:</label>
+             <input id="ste" type="number" name="quantity"min="0">
+          </form>
+    </div>
+        <button id="but" onclick="xy()">Afisare Comentarii</button>
+       
+        <div class="ex" id="get"></div>
+    </body>
+    
+    <script src="java2.js"></script> 
+</html>
